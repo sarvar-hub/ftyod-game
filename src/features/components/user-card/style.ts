@@ -18,14 +18,14 @@ export const UserCardComponent = newStyled.div(({ theme }) => ({
     "& > .user-avatar": {
       width: "100%",
       height: "100%",
-      borderRadius: "50%",
+      borderRadius: "35%",
       scale: 0.7,
       objectFit: "cover",
     },
     "& > .ramka": {
       position: "absolute",
       top: 0,
-      scale: 1,
+      scale: 1.2,
       left: 0,
       width: "100%",
       height: "100%",
