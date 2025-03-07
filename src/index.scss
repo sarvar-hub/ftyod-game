@@ -1,0 +1,19 @@
+@import "@fontsource/inter/index.css";
+
+*,
+*::before,
+*::after {
+    font-family: "Inter", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
